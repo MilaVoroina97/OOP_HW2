@@ -59,6 +59,8 @@ public class Dog extends Pet implements Train{
         System.out.printf("Weight: %d\n", this.weight);
         System.out.printf("Vaccinations: %b\n", this.isVactinated);
         System.out.printf("Training: %b\n", this.canBeTraied);
+        showAffection();
+        toTrain();
         
     }
     

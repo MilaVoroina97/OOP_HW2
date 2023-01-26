@@ -11,7 +11,7 @@ public abstract class Bird extends Animal implements CanFly{
 
     @Override
     public void fly(){
-        System.out.printf("Я лечу на %d метрах", this.heightFly);
+        System.out.printf("Я лечу на %d метрах\n", this.heightFly);
     }
 
 

@@ -50,6 +50,7 @@ public class Cat extends Pet implements GetWool{
         System.out.printf("Weight: %d\n", this.weight);
         System.out.printf("Vaccinations: %b\n", this.isVactinated);
         System.out.printf("Wool presence: %b\n", this.isWool);
+        showAffection();
         
     }
 
