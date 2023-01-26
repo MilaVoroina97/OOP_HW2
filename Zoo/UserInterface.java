@@ -8,8 +8,8 @@ import HW2.AbstractZoo2;
 
 public class UserInterface {
 
-    private static  AbstractZoo2 manager = new Zoopark2(new AnimalCreator(new AnimalParams()),new Zoopark());
-    private static  BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    private static  final AbstractZoo2 manager = new Zoopark2(new AnimalCreator(new AnimalParams()),new Zoopark());
+    private static  final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     private static  boolean workingProg = true;
 
     public static void menu() throws IOException{
@@ -27,7 +27,7 @@ public class UserInterface {
         }
     }
 
-    public static int getOperation() throws IOException{
+    private static int getOperation() throws IOException{
         System.out.println("Choose operation:");
         System.out.println("Add an animal to the zoo, press 1");
         System.out.println("Delete the animal from the zoo, press 2");
@@ -40,7 +40,7 @@ public class UserInterface {
     public static void addAnimal() throws IOException{
         System.out.println("For adding a cat press 1");
         System.out.println("For adding a dog press 2");
-        System.out.println("For adding a hen press 3");
+        System.out.println("For adding a chicken press 3");
         System.out.println("For adding a stork press 4");
         System.out.println("For adding a tiger press 5");
         System.out.println("For adding a wolf press 6");

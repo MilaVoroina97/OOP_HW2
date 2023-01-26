@@ -22,7 +22,7 @@ public class Tiger extends WildAnimal{
         System.out.println("\nTiger");
         System.out.printf("Eyes color: %s\n", this.eyesColor);
         System.out.printf("Height: %s\n", this.height);
-        System.out.printf("Weight: %.3f\n", this.weight);
+        System.out.printf("Weight: %d\n", this.weight);
         System.out.printf("Habitat: %s\n", this.habitat);
         System.out.printf("Date of finding: %s\n", this.findDate);
         

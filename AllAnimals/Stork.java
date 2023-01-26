@@ -24,8 +24,9 @@ public class Stork extends Bird{
         System.out.println("\nStork");
         System.out.printf("Eyes color: %s\n", this.eyesColor);
         System.out.printf("Height: %s\n", this.height);
-        System.out.printf("Weight: %.3f\n", this.weight);
+        System.out.printf("Weight: %d\n", this.weight);
         System.out.printf("Flight's height: %s\n", this.heightFly);
+        fly();
         
     }
     

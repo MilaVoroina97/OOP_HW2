@@ -22,11 +22,12 @@ public class Chicken extends Bird {
 
     @Override
     public void printInfo() {
-        System.out.println("\nHen");
+        System.out.println("\nChicken");
         System.out.printf("Eyes color: %s\n", this.eyesColor);
         System.out.printf("Height: %s\n", this.height);
-        System.out.printf("Weight: %.3f\n", this.weight);
+        System.out.printf("Weight: %d\n", this.weight);
         System.out.printf("Flight's height: %s\n", this.heightFly);
+        fly();
         
     }
     
