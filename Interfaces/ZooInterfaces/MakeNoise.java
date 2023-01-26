@@ -1,5 +1,7 @@
 package HW2.Interfaces.ZooInterfaces;
 
+import java.io.IOException;
+
 public interface MakeNoise {
-    public void makeCry(int index);
+    public void makeCry() throws IOException;
 }

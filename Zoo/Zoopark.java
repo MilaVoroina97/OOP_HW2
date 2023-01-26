@@ -36,7 +36,7 @@ public class Zoopark extends AbstractZoo{
             return;
         }
         Animal[] temp = new Animal[this.allAnimals.length -1];
-        for(int j = 0; j < temp.length; j++){
+        for(int j = 0; j < this.allAnimals.length; j++){
             if(j < index) temp[j] = this.allAnimals[j];
             else if(j > index) temp[j-1] = this.allAnimals[j];
 
